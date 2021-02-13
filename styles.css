@@ -1,20 +1,19 @@
 .logo {
-    font-family: 'PT Serif', serif;
-    
+    font-family: 'PT Serif', serif;  
 }
 
-.menu_item {
+.menu__item {
     font-family: 'Roboto', sans-serif;
 }
 
-.main_title {
+.main-content__title {
     font-family: 'PT Serif', serif;
 }
 
-.main_subtitle {
+.main-content__description {
     font-family: 'Roboto', sans-serif;
 }
 
-.main_button {
+.main-content__button {
     font-family: 'Roboto',sans-serif;
 }
