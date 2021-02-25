@@ -5,18 +5,19 @@ body {
 .wrapper {
     margin: auto;
     width: 80%;
-    border: dashed 1px red;
+    /* border: dashed 1px red; */
 }
 .header {
-    border: dashed 1px red;
+    /* border: dashed 1px red; */
     display: flex;
     justify-content: space-between;
     height: 30%;
+
 }
 
 .logo, .menu {
     display: inline-block;
-    border: dashed 1px red;
+    /* border: dashed 1px red; */
 }
 
 .logo {
@@ -43,7 +44,7 @@ a {
 .main-section {
     display: flex;
     justify-content: space-between;
-    border: dashed 1px red;
+    /*  */
 }
 
 .menu__item {
