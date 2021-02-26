@@ -4,15 +4,14 @@ body {
 
 .wrapper {
     margin: auto;
-    width: 80%;
+    min-width: 80%;
     /* border: dashed 1px red; */
 }
 .header {
     /* border: dashed 1px red; */
     display: flex;
     justify-content: space-between;
-    height: 30%;
-
+    min-height: 30%;
 }
 
 .logo, .menu {
@@ -58,8 +57,8 @@ a {
 
 .main-content {
     display: inline-block;
-    height: 255px;
-    width: 567px;
+    min-height: 255px;
+    min-width: 567px;
     border-radius: null;
 
 }
@@ -104,8 +103,8 @@ a {
     
 }
  button {
-    height: 57px;
-    width: 270.75px;
+    min-height: 57px;
+    min-width: 271px;
     border-radius: 4px;
     font-size: 18px;
     font-weight: 500;
@@ -120,4 +119,5 @@ a {
     display: inline-block;
     margin-top: 173px;
     border-radius: 0px;
+    width: 100%;
  }
