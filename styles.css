@@ -16,12 +16,14 @@ body {
 
 .logo, .menu {
     display: inline-block;
+
     /* border: dashed 1px red; */
 }
 
 .logo {
     font-family: 'PT Serif', serif;
     padding: 40px 0;
+
     font-family: PT Serif;
     font-style: normal;
     font-size: 24px;
@@ -60,9 +62,11 @@ a {
     min-height: 255px;
     min-width: 567px;
     border-radius: null;
-
 }
 
+.menu__item:last-child {
+    padding-right: 0;
+}
 .main-content__title {
     font-family: 'PT Serif', serif;
     margin-top: 246px;
