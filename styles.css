@@ -5,26 +5,23 @@ body {
 .wrapper {
     margin: auto;
     min-width: 80%;
-    /* border: dashed 1px red; */
 }
 .header {
-    /* border: dashed 1px red; */
     display: flex;
     justify-content: space-between;
     min-height: 30%;
+    padding: 40px 0;
 }
 
 .logo, .menu {
     display: inline-block;
-
-    /* border: dashed 1px red; */
 }
 
 .logo {
-    /* font-family: 'PT Serif', serif; */
-    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-    padding: 40px 0;
-    font-family: PT Serif;
+    width: 190px;
+    height: 35px;
+    border: dashed 1px red;
+    background: url('img/logo.svg');
     font-style: normal;
     letter-spacing: 0em;
     text-align: left;
@@ -42,7 +39,6 @@ a {
 .main-section {
     display: flex;
     justify-content: space-between;
-    /* border: dashed 1px red; */
 }
 
 .menu__item {
