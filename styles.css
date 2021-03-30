@@ -121,7 +121,7 @@ a {
 
 .main__title {
     margin: 0 0 40px 0;
-    font: 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main__title_text-background {
