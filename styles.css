@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    
+
 }
 
 .wrapper {
@@ -15,7 +15,8 @@ body {
     margin-bottom: 100px;
 }
 
-.logo, .menu {
+.logo,
+.menu {
     display: inline-block;
 }
 
@@ -70,12 +71,12 @@ a {
 }
 
 .menu__item {
-     position: relative;
-     margin-right: 26px;
-     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-     color: #000;
-     text-decoration: none;
-     transition: opacity .5s;
+    position: relative;
+    margin-right: 26px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: opacity .5s;
 }
 
 .menu__item:after {
@@ -104,7 +105,8 @@ a {
     background: #0056EC;
 }
 
-.menu__item:hover:after, .menu__item_active:after {
+.menu__item:hover:after,
+.menu__item_active:after {
     opacity: 1;
     width: 100%;
 }
