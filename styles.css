@@ -21,12 +21,9 @@ body {
 
 .logo {
     position: relative;
-    padding: 40px 0;
+    padding: 40px 0; 
     padding-left: 44px;
-    font: bold 24px/31px 'PT Serif',
-    arial,
-    helvetica,
-    sans-serif;
+    font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
