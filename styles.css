@@ -120,7 +120,7 @@ a {
 
 .main {
     padding: 75px 63% 100px 3px;
-    background: top right no-repeat url(frame.png);
+    background: top right 4px no-repeat url(frame.png);
 }
 
 .main__title {
@@ -134,8 +134,8 @@ a {
 }
 
 .main__subtitle {
-    margin: 0 0 41px 0;
-    font: 22px/26px Roboto, arial, helvetica, sans-serif;
+    margin: 0 0 44px 0;
+    font: 21.5px/26px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
