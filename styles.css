@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-height: 30%;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .logo,
@@ -23,7 +23,7 @@ body {
 .logo {
     position: relative;
     padding: 40px 0; 
-    padding-left: 44px;
+    padding-left: 48px;
     font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
 }
 
@@ -54,6 +54,7 @@ body {
 .menu {
     display: flex;
     align-items: center;
+    width: 386px;
 }
 
 a {
@@ -73,6 +74,7 @@ a {
 .menu__item {
     position: relative;
     margin-right: 26px;
+    padding-top: 3px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
@@ -117,13 +119,13 @@ a {
 }
 
 .main {
-    padding: 0 63% 100px 0;
+    padding: 78px 63% 100px 3px;
     background: top right no-repeat url(frame.png);
 }
 
 .main__title {
-    margin: 0 0 40px 0;
-    font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+    margin: 0 0 33px 0;
+    font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main__title_text-background {
@@ -132,21 +134,37 @@ a {
 
 .main__subtitle {
     margin: 0 0 41px 0;
-    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+    font: 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
     display: inline-block;
-    font: 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 14px 16px;
+    padding: 18px 21px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
+    width: 230px;
+    height: 20px;
 }
 
 .main__button:hover {
     opacity: .5;
 }
     
+.points {
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+    padding-bottom: 40px;
+    width: 32px;
+    height: 8px;
+    margin: 0 auto;
+}
+
+.points_point {
+    margin-right: 4px;
+}
+
