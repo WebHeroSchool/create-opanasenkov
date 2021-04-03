@@ -119,17 +119,18 @@ a {
 }
 
 .main {
-    padding: 78px 63% 100px 3px;
+    padding: 75px 63% 100px 3px;
     background: top right no-repeat url(frame.png);
 }
 
 .main__title {
-    margin: 0 0 33px 0;
+    margin: 0 0 34px 0;
     font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main__title_text-background {
     background: #ECF3FF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ECF3FF 15%);
 }
 
 .main__subtitle {
@@ -157,8 +158,7 @@ a {
 .points {
     display: flex;
     justify-content: center;
-    margin-top: 165px;
-    padding-bottom: 40px;
+    padding: 165px 0 40px 0;
     width: 32px;
     height: 8px;
     margin: 0 auto;
