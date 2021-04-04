@@ -1,26 +1,31 @@
 body {
   margin: 0;
 }
+
 .wrapper {
   margin: auto;
   max-width: 80%;
 }
+
 .header {
   justify-content: space-between;
   display: flex;
   min-height: 30%;
   margin-bottom: 130px;
 }
+
 .logo, 
 .menu {
   display: inline-block;
 }
+
 .logo {
   position: relative;
   padding: 40px 0; 
   padding-left: 48px;
   font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
 }
+
 .logo__circle {
   left: 0;
   top: 0;
@@ -30,23 +35,27 @@ body {
   width: 28px;
   height: 28px;
 }
+
 .logo__circle_color_dark-blue {
   background: #0056ec;
   border-radius: 50%;
   opacity: 0.7;
 }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBfb;
+  background: #c8dbfb;
   border-radius: 50%;
   opacity: 0.7;
 }
+
 .menu {
   display: flex;
   align-items: center;
   width: 386px;
 }
+
 .menu__item_active::after {
   position: relative;
   display: block;
@@ -56,6 +65,7 @@ body {
   background: #0056ec;
   left: 0;
 }
+
 .menu__item {
   position: relative;
   margin-right: 26px;
@@ -65,6 +75,7 @@ body {
   text-decoration: none;
   transition: opacity 0.5s;
 }
+
 .menu__item::after {
   position: absolute;
   left: 0;
@@ -76,9 +87,11 @@ body {
   opacity: 0;
   transition: opacity 0.5s;
 }
+
 .menu__item:hover {
   opacity: 0.5;
 }
+
 .menu__item:hover::after {
   position: absolute;
   left: 0;
@@ -88,35 +101,42 @@ body {
   height: 3px;
   background: #0056ec;
 }
+
 .menu__item:hover::after,
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
+
 .menu__item:last-child {
   margin-right: 0;
   padding-right: 0;
 }
+
 .main {
   padding: 75px 63% 100px 3px;
   background: top right 4px no-repeat url(frame.png);
 }
+
 .main__title {
   margin: 0 0 34px 0;
   font: bold 66px/87px 'PT Serif', arial, helvetica, sans-serif;
 }
+
 .main__title_text-background {
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
 }
+
 .main__subtitle {
   margin: 0 0 44px 0;
   font: 21.5px/26px 'Roboto', arial, helvetica, sans-serif;
 }
+
 .main__button {
   display: inline-block;
   font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   padding: 18px 21px;
   text-decoration: none;
   border-radius: 4px;
@@ -124,9 +144,11 @@ body {
   width: 230px;
   height: 20px;
 }
+
 .main__button:hover {
   opacity: 0.5;
 }
+
 .points {
   display: flex;
   justify-content: center;
@@ -135,6 +157,7 @@ body {
   height: 8px;
   margin: 0 auto;
 }
+
 .points_point {
   margin-right: 4px;
 }
