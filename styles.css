@@ -15,8 +15,7 @@ body {
   margin-bottom: 130px;
 }
 
-.logo,
-.menu {
+.logo, .menu {
   display: inline-block;
 }
 
