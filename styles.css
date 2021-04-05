@@ -128,12 +128,12 @@ body {
 
 .main__subtitle {
   margin: 0 0 44px 0;
-  font: 21.5px/26px 'Roboto', arial, helvetica, sans-serif;
+  font: 400 21.5px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   padding: 18px 21px;
