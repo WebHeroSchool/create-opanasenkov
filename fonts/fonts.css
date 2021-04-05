@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: 'PT Serif';
-  src: 
-    url('ptserif-bold-webfont.woff') format('woff'),
+  src: url('ptserif-bold-webfont.woff') format('woff'),
     url('PT Serif.bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
