@@ -318,7 +318,7 @@ body {
 
 @media (min-width: 769px) and (max-width: 930px) {
   .wrapper {
-    width: 100%;
+    max-width: 100%;
   }
 
   .header {
