@@ -485,7 +485,7 @@ body {
     padding: 176px 20px;
     list-style: none;
     text-align: center;
-    background-color: #eceff1;
+    background-color: #FFFFFF;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
@@ -531,7 +531,6 @@ body {
     padding: 69% 0 0;
     background-size: 74%;
     background-position: top center;
-    border: dashed 1px red;
     text-align: center;
   }
 
@@ -540,7 +539,6 @@ body {
     margin-bottom: 31px;
     padding-left: 4px;
     font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
-    border: dashed 1px red;
   }
 
   .main__subtitle {
@@ -704,7 +702,6 @@ body {
     padding: 69% 0 0;
     background-size: 74%;
     background-position: top center;
-    border: dashed 1px red;
     text-align: center;
   }
 
@@ -713,7 +710,6 @@ body {
     margin-bottom: 31px;
     padding-left: 4px;
     font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
-    border: dashed 1px red;
   }
 
   .main__subtitle {
