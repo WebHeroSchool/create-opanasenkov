@@ -436,10 +436,6 @@ body {
     display: none;
   }
 
-  .menu {
-    display: none;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -490,7 +486,7 @@ body {
     list-style: none;
     text-align: center;
     background-color: #eceff1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
@@ -662,7 +658,7 @@ body {
     list-style: none;
     text-align: center;
     background-color: #eceff1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
