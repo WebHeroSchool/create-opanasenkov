@@ -394,7 +394,7 @@ body {
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 49%;
+    width: 100%;
     margin: 0;
   }
 
@@ -445,7 +445,7 @@ body {
     align-items: center;
     position: fixed;
     top: 27px;
-    right: 418px;
+    right: 24px;
     width: 24px;
     height: 27px;
     cursor: pointer;
@@ -485,7 +485,7 @@ body {
     padding: 176px 20px;
     list-style: none;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
