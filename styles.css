@@ -565,7 +565,7 @@ body {
   }
 
   .header {
-    margin-bottom: 7px;
+    margin-bottom: 9px;
     padding: 16px 0;
   }
 
@@ -699,6 +699,7 @@ body {
   }
 
   .main {
+    margin-bottom: 59px;
     padding: 69% 0 0;
     background-size: 74%;
     background-position: top center;
@@ -707,7 +708,7 @@ body {
 
   .main__title {
     width: auto;
-    margin-bottom: 31px;
+    margin-bottom: 33px;
     padding-left: 4px;
     font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
   }
