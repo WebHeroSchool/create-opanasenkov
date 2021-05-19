@@ -132,6 +132,12 @@ body {
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
+@keyframes flash {
+  to {
+    color: rgb(255, 0, 119);
+  }
+}
+
 .main__button {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
@@ -142,6 +148,10 @@ body {
   transition: opacity 0.5s;
   width: 230px;
   height: 20px;
+  animation: flash;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 }
 
 .main__button:hover {
