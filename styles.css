@@ -177,7 +177,7 @@ body {
 @media (min-width: 226px) and (max-width: 599px) {
   .wrapper {
     /* margin: auto; */
-    max-width: 85.3%;
+    /* max-width: 85.3%; */
   }
   .header {
     /* padding: 65% 0 0;
@@ -185,8 +185,8 @@ body {
     background-position: top center;
     height: 595px;
     padding-left: 28px;
-    background: top 331px right 29px no-repeat url(developer.png);
-    background-size: 81%;
+    background: top 331px right 85px no-repeat url(developer.png);
+    background-size: 69%;
     background-color: #3030C1;
   }
   .logo {
@@ -199,18 +199,21 @@ body {
     height: 24px;
   }
   .header__title {
-    width: 86%;
+    width: 53%;
     margin-bottom: 25px;
     font: bold 25px/30px 'Gilroy', arial, helvetica, sans-serif;
     border: dashed 1px red;
   }
+  span {
+    white-space: nowrap;
+  }
   .header__subtitle__first {
-    width: 82%;
+    width: 70%;
     margin-bottom: 1px;
     font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
   }
   .header__subtitle__second {
-    width: 82%;
+    width: 70%;
     margin: 0 45px 47px 0;
     font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
   }
