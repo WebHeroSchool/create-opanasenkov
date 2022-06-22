@@ -177,7 +177,7 @@ body {
 @media (min-width: 226px) and (max-width: 599px) {
   .wrapper {
     /* margin: auto; */
-    /* max-width: 85.3%; */
+    max-width: 85.3%;
   }
   .header {
     /* padding: 65% 0 0;
@@ -185,13 +185,13 @@ body {
     background-position: top center;
     height: 595px;
     padding-left: 28px;
-    background: top 331px right 85px no-repeat url(developer.png);
-    background-size: 69%;
+    background: top 331px right 30px no-repeat url(developer.png);
+    background-size: 81%;
     background-color: #3030C1;
   }
   .logo {
     padding-top: 37px;
-    margin-bottom: 18px;
+    margin-bottom: 17px;
     font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
   }
   .logo__img {
@@ -199,7 +199,7 @@ body {
     height: 24px;
   }
   .header__title {
-    width: 53%;
+    width: 63%;
     margin-bottom: 25px;
     font: bold 25px/30px 'Gilroy', arial, helvetica, sans-serif;
     border: dashed 1px red;
@@ -208,12 +208,12 @@ body {
     white-space: nowrap;
   }
   .header__subtitle__first {
-    width: 70%;
+    width: 81%;
     margin-bottom: 1px;
     font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
   }
   .header__subtitle__second {
-    width: 70%;
+    width: 82%;
     margin: 0 45px 47px 0;
     font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
   }
