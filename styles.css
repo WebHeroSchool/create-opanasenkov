@@ -177,7 +177,7 @@ body {
 @media (min-width: 226px) and (max-width: 599px) {
   .wrapper {
     /* margin: auto; */
-    max-width: 85.3%;
+    /* max-width: 85.3%; */
   }
   .header {
     /* padding: 65% 0 0;
@@ -200,8 +200,8 @@ body {
   }
   .header__title {
     width: 63%;
-    margin-bottom: 25px;
-    font: bold 25px/30px 'Gilroy', arial, helvetica, sans-serif;
+    margin-bottom: 24px;
+    font: bold 25px/31px 'Gilroy', arial, helvetica, sans-serif;
     border: dashed 1px red;
   }
   span {
