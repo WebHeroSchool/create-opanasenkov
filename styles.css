@@ -23,7 +23,6 @@ body {
   padding-top: 58px;
   margin-bottom: 127px;
   font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
 
 .header__title {
@@ -31,7 +30,6 @@ body {
   margin: 0 0 32px 0;
   font: bold 45px/55px 'Gilroy', arial, helvetica, sans-serif;
   color: #FFF;
-  border: dashed 1px red;
 }
 
 .header__subtitle__first {
@@ -174,54 +172,7 @@ body {
   }
 }
 
-@media (min-width: 226px) and (max-width: 599px) {
-  .wrapper {
-    /* margin: auto; */
-    /* max-width: 85.3%; */
-  }
-  .header {
-    /* padding: 65% 0 0;
-    background-size: 74%; */
-    background-position: top center;
-    height: 595px;
-    padding-left: 28px;
-    background: top 331px right 30px no-repeat url(developer.png);
-    background-size: 81%;
-    background-color: #3030C1;
-  }
-  .logo {
-    padding-top: 37px;
-    margin-bottom: 17px;
-    font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
-  }
-  .logo__img {
-    width: 93px;
-    height: 24px;
-  }
-  .header__title {
-    width: 63%;
-    margin-bottom: 24px;
-    font: bold 25px/31px 'Gilroy', arial, helvetica, sans-serif;
-    border: dashed 1px red;
-  }
-  span {
-    white-space: nowrap;
-  }
-  .header__subtitle__first {
-    width: 81%;
-    margin-bottom: 1px;
-    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
-  }
-  .header__subtitle__second {
-    width: 82%;
-    margin: 0 45px 47px 0;
-    font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
-  }
- .header__button {
-    display: none;
-    font: 900 13px/22px 'Montserrat', arial, helvetica, sans-serif;
-  }
-}
+
 /* ---------------------------------plans-------------------------------- */
 
 .main {
@@ -400,5 +351,119 @@ footer {
   color: #FFF;
   padding-top: 49px;
   padding-left: 131px
+}
+@media (min-width: 226px) and (max-width: 599px) {
+  .wrapper {
+    /* margin: auto; */
+    /* max-width: 85.3%; */
+  }
+  .header {
+    /* padding: 65% 0 0;
+    background-size: 74%; */
+    background-position: top center;
+    height: 595px;
+    padding-left: 28px;
+    background: top 331px right 30px no-repeat url(developer.png);
+    background-size: 81%;
+    background-color: #3030C1;
+  }
+  .logo {
+    padding-top: 37px;
+    margin-bottom: 19px;
+    font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
+  }
+  .logo__img {
+    width: 93px;
+    height: 24px;
+  }
+  .header__title {
+    width: 63%;
+    margin-bottom: 25px;
+    font: bold 25px/31px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  span {
+    white-space: nowrap;
+  }
+  .header__subtitle__first {
+    width: 81%;
+    margin-bottom: 1px;
+    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .header__subtitle__second {
+    width: 82%;
+    margin: 0 45px 47px 0;
+    font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
+  }
+ .header__button {
+    display: none;
+    font: 900 13px/22px 'Montserrat', arial, helvetica, sans-serif;
+  }
+  .plans__wrapper {
+    margin: 0 auto;
+  }
+  .column__title {
+    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
+    margin-bottom: 29px;
+  }
+  .column__container {
+    flex-direction: column;
+  }
+  .column__icon-1 {
+    width: 84.61px;
+    padding-right: 1px;
+    margin-bottom: 15px;
+  }
+  .column__title-1 {
+    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
+    color: #3030C1;
+    padding-left: 7px;
+    margin-bottom: 16px;
+  }
+  .plans__subtitle-1 {
+    font: bold 10px/12.25px 'Gilroy', arial, helvetica, sans-serif;
+    padding-left: 7px;
+  }
+  .column__item {
+    width: 81%;
+    height: 273px;
+    box-shadow: 7px 7px 30px 0 rgb(0 0 0 / 25%), -2px -2px 13px 0 rgb(0 0 0 / 0%);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #FBFBFB;
+  }
+  .column__icon-2 {
+    width: 84.61px;
+    padding-top: 40px;
+    margin-bottom: 16px;
+  }
+  .column__title-2 {
+    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
+    color: #3030C1;
+    padding-left: 1px;
+    margin-bottom: 8px;
+  }
+  .plans__subtitle-2 {
+    font: bold 10px/12.25px 'Gilroy', arial, helvetica, sans-serif;
+    padding-right: 1px;
+    width: 116px;
+  }
+  .column__icon-3 {
+    width: 84.61px;
+    padding-top: 43px;
+    margin-right: 88px;
+    margin-bottom: 16px;
+  }
+  .column__title-3 {
+    font: bold 20px/24.5px 'Gilroy', arial, helvetica, sans-serif;
+    width: 162px;
+    color: #3030C1;
+    padding-left: 1px;
+    margin-bottom: 15px;
+  }
+  .plans__subtitle-3 {
+    font: bold 10px/12.25px 'Gilroy', arial, helvetica, sans-serif;
+    padding-right: 4px;
+    width: 125px;
+  }
 }
 
